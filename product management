@@ -43,7 +43,7 @@ public class HOMEUI extends JFrame {
               */
 
               public HOMEUI() {
-	      		JLable l = new JLable();
+	      	
 			
                            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
