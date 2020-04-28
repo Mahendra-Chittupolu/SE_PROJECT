@@ -237,23 +237,6 @@ public class SEProject extends JFrame {
 				}
 				else
 				{
-					label.setText("Invalid UserName/Password");
-					
-				}
-	
-			}
-		});
-		panel.add(btnLogin);
-		
-		JButton btnSignUp = new JButton("Sign Up");
-		btnSignUp.setBounds(188, 72, 77, 25);
-		panel.add(btnSignUp);
-		
-		
-	}
-}
-
-
 import javax.swing.JFrame;
 
 import javax.swing.JPanel;
@@ -571,6 +554,22 @@ public class Complaint extends JFrame {
 		btnSubmit.setBounds(157, 215, 97, 25);
 		contentPane.add(btnSubmit);
 		this.setVisible(true);
+	}
+}
+
+					label.setText("Invalid UserName/Password");
+					
+				}
+	
+			}
+		});
+		panel.add(btnLogin);
+		
+		JButton btnSignUp = new JButton("Sign Up");
+		btnSignUp.setBounds(188, 72, 77, 25);
+		panel.add(btnSignUp);
+		
+		
 	}
 }
 
